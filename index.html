@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hà Nội Trong Tôi – Tinh Hoa Ẩm Thực Đất Kinh Kỳ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Be+Vietnam+Pro:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__logo">Hà Nội</div>
+    <ul class="nav__links">
+      <li><a href="#intro">Giới thiệu</a></li>
+      <li><a href="#dishes">Đặc sản</a></li>
+      <li><a href="#about">Về tôi</a></li>
+      <li><a href="#contact">Liên hệ</a></li>
+    </ul>
+    <button class="nav__toggle" aria-label="Menu" id="navToggle">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <div class="hero__grain"></div>
+      <div class="hero__overlay"></div>
+      <div class="hero__pattern"></div>
+    </div>
+    <div class="hero__content">
+      <p class="hero__eyebrow reveal">Hành trình vị giác · Ngàn năm văn hiến</p>
+      <h1 class="hero__title reveal">
+        <span class="line">Hà Nội</span>
+        <span class="line accent-line">Trong Tôi</span>
+        <span class="line small-line">Tinh Hoa Ẩm Thực Đất Kinh Kỳ</span>
+      </h1>
+      <p class="hero__slogan reveal">
+        Nơi mỗi món ăn là một câu chuyện lịch sử,<br/>
+        mỗi hương vị là một nét di sản ngàn năm văn hiến.
+      </p>
+      <div class="hero__cta reveal">
+        <a href="#dishes" class="btn btn--primary">Khám Phá Ngay</a>
+        <a href="#intro" class="btn btn--ghost">Hành Trình Vị Giác</a>
+      </div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Cuộn xuống</span>
+      <div class="scroll-line"></div>
+    </div>
+    <!-- Ngôi sao vàng trang trí – gợi cờ Tổ quốc -->
+    <div class="hero__deco">
+      <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <polygon
+          points="100,18 121,74 180,74 134,109 151,165 100,132 49,165 66,109 20,74 79,74"
+          fill="none"
+          stroke="rgba(255,205,0,0.18)"
+          stroke-width="1.5"
+          stroke-linejoin="round"
+        />
+        <polygon
+          points="100,36 115,66 148,66 122,86 132,116 100,96 68,116 78,86 52,66 85,66"
+          fill="none"
+          stroke="rgba(255,205,0,0.1)"
+          stroke-width="1"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </div>
+  </section>
+
+  <!-- INTRO -->
+  <section class="intro" id="intro">
+    <div class="container">
+      <div class="intro__grid">
+        <div class="intro__visual reveal">
+          <div class="intro__img-wrap">
+            <div class="intro__img img-pho" role="img" aria-label="Phố cổ Hà Nội"></div>
+          </div>
+          <div class="intro__badge">
+            <span class="badge-year">1000+</span>
+            <span class="badge-label">Năm Văn Hiến</span>
+          </div>
+        </div>
+        <div class="intro__text">
+          <p class="section-label reveal">Lời giới thiệu</p>
+          <h2 class="section-title reveal">Mảnh Đất Ngàn Năm, Hương Vị Ngàn Đời</h2>
+          <p class="intro__body reveal">
+            Hà Nội – mảnh đất ngàn năm văn hiến không chỉ lưu dấu trong lòng du khách bởi những mái ngói rêu phong, những con phố cổ trầm mặc, mà còn bởi một nền ẩm thực tinh tế đến từng chi tiết. Ẩm thực Hà Nội là sự kết hoa của sản vật đồng quê trù phú vùng đồng bằng sông Hồng, kết hợp với nét thanh lịch, cầu kỳ trong lối sống của người Tràng An.
+          </p>
+          <blockquote class="intro__quote reveal">
+            <p>"Chẳng thanh cũng thể hoa nhài<br/>Chẳng lịch cũng thể là người Tràng An"</p>
+          </blockquote>
+          <p class="intro__body reveal">
+            Đến với Hà Nội là bước vào một hành trình vị giác đầy hứng khởi. Giữa nhịp sống đô thị trẻ trung, những gánh hàng rong, những quán ăn nép mình trong ngõ phố cổ vẫn vẹn nguyên hương vị truyền thống, tạo nên một nét văn hóa đường phố độc đáo, níu chân mọi thực khách phương xa.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DISHES -->
+  <section class="dishes" id="dishes">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Đặc sản tiêu biểu</p>
+        <h2 class="section-title">Bản Giao Hưởng Của Vị Giác</h2>
+      </div>
+      <div class="dishes__list">
+
+        <!-- Phở -->
+        <article class="dish-card reveal" data-index="01">
+          <div class="dish-card__media">
+            <div class="dish-card__img img-pho2"></div>
+            <div class="dish-card__num">01</div>
+          </div>
+          <div class="dish-card__body">
+            <span class="dish-tag">Linh hồn ẩm thực</span>
+            <h3 class="dish-card__title">Phở Hà Nội</h3>
+            <p class="dish-card__desc">
+              Nước dùng phải thật trong, ngọt sâu từ xương bò ninh kỹ cùng các loại gia vị thảo mộc như quế, hồi, thảo quả nướng thơm. Sợi phở mềm nhưng không nát, kết hợp cùng thịt bò chín tới hoặc gà xé phay, thêm chút hành hoa thanh mát. Thưởng thức một bát phở nóng hổi vào buổi sáng tinh sương giữa lòng phố cổ là trải nghiệm văn hóa không thể bỏ qua.
+            </p>
+            <div class="dish-card__tags">
+              <span>Nước dùng trong</span>
+              <span>Gia vị thảo mộc</span>
+              <span>Sáng tinh sương</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Bún Chả -->
+        <article class="dish-card dish-card--alt reveal" data-index="02">
+          <div class="dish-card__body">
+            <span class="dish-tag">Hương vị gây thương nhớ</span>
+            <h3 class="dish-card__title">Bún Chả</h3>
+            <p class="dish-card__desc">
+              Những miếng chả băm, chả miếng được kẹp tre, nướng trên bếp than hồng đỏ rực, tỏa mùi thơm nức mũi cả một góc phố. Linh hồn của món ăn nằm ở bát nước chấm đu đủ xanh chua ngọt, ấm nóng, ăn kèm với sợi bún mảnh và các loại rau thơm đặc trưng của vùng đất Bắc Bộ như tía tô, kinh giới. Đây cũng chính là món ăn từng vinh dự đón tiếp Cựu Tổng thống Mỹ Barack Obama.
+            </p>
+            <div class="dish-card__tags">
+              <span>Than hồng nướng</span>
+              <span>Nước chấm chua ngọt</span>
+              <span>Rau thơm Bắc Bộ</span>
+            </div>
+            <div class="dish-card__highlight">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              Được Barack Obama lựa chọn khi thăm Việt Nam
+            </div>
+          </div>
+          <div class="dish-card__media">
+            <div class="dish-card__img img-bun-cha"></div>
+            <div class="dish-card__num">02</div>
+          </div>
+        </article>
+
+        <!-- Chả Cá -->
+        <article class="dish-card reveal" data-index="03">
+          <div class="dish-card__media">
+            <div class="dish-card__img img-cha-ca"></div>
+            <div class="dish-card__num">03</div>
+          </div>
+          <div class="dish-card__body">
+            <span class="dish-tag">Nghệ thuật ẩm thực</span>
+            <h3 class="dish-card__title">Chả Cá Lã Vọng</h3>
+            <p class="dish-card__desc">
+              Không chỉ đơn thuần là một món ăn, Chả cá Lã Vọng là một nét di sản nghệ thuật ẩm thực được gìn giữ qua nhiều thế hệ. Thịt cá (thường là cá lăng hoặc cá anh vũ) được lọc xương, tẩm ướp gia vị cẩn thận rồi nướng sơ trên than củi. Sự kết hợp giữa vị béo ngậy của cá, mùi thơm của rau thì là, vị bùi của lạc rang và chút đậm đà của mắm tôm tạo nên một bản hòa tấu hương vị đỉnh cao.
+            </p>
+            <div class="dish-card__tags">
+              <span>Cá lăng tươi</span>
+              <span>Rau thì là</span>
+              <span>Mắm tôm</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Cốm -->
+        <article class="dish-card dish-card--alt reveal" data-index="04">
+          <div class="dish-card__body">
+            <span class="dish-tag">Hương thức mùa thu</span>
+            <h3 class="dish-card__title">Cốm Làng Vòng</h3>
+            <p class="dish-card__desc">
+              Khi những cơn gió heo may chớm lạnh tràn về, Hà Nội lại khoác lên mình hương thơm dịu nhẹ của Cốm Làng Vòng. Những hạt nếp non được giã dẹt, đượm màu xanh của ngọc bích, gói cẩn thận trong hai lớp lá: lá sen giữ hương thơm và lá môn giữ độ ẩm. Thưởng thức cốm vòng một cách thanh tao là nhón vài hạt cốm mộc, hoặc ăn kèm với chuối tiêu chín cuốc, nhấp thêm ngụm trà sen ấm nóng.
+            </p>
+            <div class="dish-card__tags">
+              <span>Nếp non xanh ngọc</span>
+              <span>Lá sen</span>
+              <span>Hương mùa thu</span>
+            </div>
+          </div>
+          <div class="dish-card__media">
+            <div class="dish-card__img img-com"></div>
+            <div class="dish-card__num">04</div>
+          </div>
+        </article>
+
+        <!-- Cà Phê Trứng -->
+        <article class="dish-card reveal" data-index="05">
+          <div class="dish-card__media">
+            <div class="dish-card__img img-ca-phe"></div>
+            <div class="dish-card__num">05</div>
+          </div>
+          <div class="dish-card__body">
+            <span class="dish-tag">Sáng tạo độc đáo</span>
+            <h3 class="dish-card__title">Cà Phê Trứng</h3>
+            <p class="dish-card__desc">
+              Ra đời từ những năm 1940 trong bối cảnh khan hiếm sữa tươi, Cà phê trứng đã trở thành một biểu tượng sáng tạo của thức uống Hà Nội. Lớp lòng đỏ trứng gà được đánh bông xốp cùng đường và mật ong, tạo thành tầng kem mịn màng, béo ngậy phủ lên trên dòng cà phê Robusta đen đậm đặc, nóng hổi. Vị đắng nhẹ của cà phê hòa quyện hoàn hảo với vị ngậy mà không tanh của trứng, mang lại cảm giác ấm áp, đê mê trong những ngày đông Hà Nội.
+            </p>
+            <div class="dish-card__tags">
+              <span>Ra đời 1940s</span>
+              <span>Robusta đặc</span>
+              <span>Kem trứng bông xốp</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CALLOUT -->
+  <section class="callout">
+    <div class="callout__inner">
+      <div class="callout__deco">
+        <div class="deco-line"></div>
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M16 2C8.268 2 2 8.268 2 16s6.268 14 14 14 14-6.268 14-14S23.732 2 16 2z" stroke="#D4AF37" stroke-width="1.5"/><path d="M10 16h12M16 10v12" stroke="#D4AF37" stroke-width="1.5"/></svg>
+        <div class="deco-line"></div>
+      </div>
+      <blockquote class="callout__quote reveal">
+        <p>
+          "Ăn quà Hà Nội không chỉ là để no bụng, mà là để thưởng thức cái đẹp, cái tinh tế trong từng gia vị, và để cảm nhận dòng chảy lịch sử đang hiện hữu trong mỗi góc phố, mỗi nếp nhà."
+        </p>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__text">
+          <p class="section-label reveal">Về tôi</p>
+          <h2 class="section-title reveal">Xin Chào, Tôi Là<br/><span class="highlight">Nhật Anh</span></h2>
+          <p class="about__body reveal">
+            Hiện đang là sinh viên năm nhất ngành Quản trị kinh doanh tại Học viện Công nghệ Bưu chính Viễn thông. Là một người trẻ luôn nỗ lực học hỏi, yêu thích mèo, mê xem phim và luôn tìm kiếm cơ hội phát triển bản thân trong môi trường năng động, tôi luôn xem gia đình và quê hương là nguồn động lực lớn nhất để cố gắng mỗi ngày.
+          </p>
+          <p class="about__body reveal">
+            Tôi sinh ra tại vùng quê yên bình tại ngoại thành Hà Nội (Quốc Oai). Giờ đây, khi đang trải qua những năm tháng thanh xuân rực rỡ nhất tại thủ đô, tôi lại may mắn được mảnh đất ngàn năm văn hiến này ôm ấp. Trang web này chính là nơi tôi gửi gắm tình yêu dành quê hương tôi sinh ra và là nơi đang nuôi dưỡng ước mơ của tôi qua những hương vị đặc sản tinh tế.
+          </p>
+          <div class="about__pills reveal">
+            <span>🐱 Yêu mèo</span>
+            <span>🎬 Mê phim</span>
+            <span>🎓 PTIT</span>
+            <span>🏡 Quốc Oai · Hà Nội</span>
+          </div>
+        </div>
+        <div class="about__visual reveal">
+          <div class="about__card">
+            <div class="about__avatar"></div>
+            <h3 class="about__name">Nhật Anh</h3>
+            <p class="about__role">Sinh viên QTKD · PTIT</p>
+            <div class="about__stats">
+              <div class="stat">
+                <span class="stat__num">2025</span>
+                <span class="stat__label">Nhập học</span>
+              </div>
+              <div class="stat__divider"></div>
+              <div class="stat">
+                <span class="stat__num">5</span>
+                <span class="stat__label">Đặc sản khám phá</span>
+              </div>
+              <div class="stat__divider"></div>
+              <div class="stat">
+                <span class="stat__num">∞</span>
+                <span class="stat__label">Tình yêu Hà Nội</span>
+              </div>
+            </div>
+            <div class="about__quote-mini">
+              <p>"Hà Nội trong tôi – nơi nuôi dưỡng ước mơ"</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="contact">
+    <div class="footer__top">
+      <div class="container">
+        <div class="footer__main">
+          <div class="footer__brand">
+            <div class="footer__logo">Hà Nội</div>
+            <p class="footer__tagline">Hà Nội Trong Tôi</p>
+            <p class="footer__desc">Kết nối với chúng tôi. Đừng bỏ lỡ hành trình khám phá văn hóa và ẩm thực Việt Nam.</p>
+          </div>
+          <div class="footer__social">
+            <p class="footer__social-label">Kết nối với tôi</p>
+            <div class="social-links">
+              <a href="#" class="social-link" aria-label="Facebook">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+                <span>Facebook</span>
+              </a>
+              <a href="#" class="social-link" aria-label="TikTok">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.2 8.2 0 004.79 1.53V6.77a4.85 4.85 0 01-1.02-.08z"/></svg>
+                <span>TikTok</span>
+              </a>
+              <a href="#" class="social-link" aria-label="Instagram">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                <span>Instagram</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>© 2026 Nhật Anh · Học viện Công nghệ Bưu chính Viễn thông</p>
+        <p>Tất cả nội dung thuộc quyền tác giả của trang web.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
